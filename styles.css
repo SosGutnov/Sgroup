@@ -1,0 +1,200 @@
+body {
+    background-image: url(phon.png);
+    background-size:cover;
+    font-family: monospace;
+    color: rgb(230, 229, 229);
+}
+
+ul .hr:hover {
+    background-color: #2929295e;
+}
+ul {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 0 0 0 0;
+	list-style-type: none;
+}
+
+.side_bar_login {
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    background-color: rgb(75, 79, 83);
+    padding-bottom: 10px;
+}
+
+.side_bar_reg {
+    border-radius: 25px;
+    width: 500px;
+    height: auto;
+    background-color: rgb(75, 79, 83);
+    padding-bottom: 10px;
+}
+
+a {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;	
+    justify-content: center;	
+}
+
+button {
+    justify-content: center;
+    background-color: rgba(144, 140, 172, 0.329);
+    text-decoration: none;
+    font-size: 25px;
+    width: 300px;
+    border-radius:10px;
+    margin: auto;
+    border-color: transparent;
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2929295e;
+}
+
+.hr {
+    width: 300px;
+    border-radius:10px;
+    background-color: rgba(144, 140, 172, 0.329);
+    height: 28px;
+}
+
+.side_main {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.side_reg {
+    text-align: center;
+    margin-top: 10%;
+}
+.side_login {
+    text-align: center;
+    margin-top: 10%;
+}
+.clasP {
+    font-size: 25px;
+    margin:auto;
+}
+
+.input_I {
+    color: rgb(204, 204, 204);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color:rgb(0, 0, 0);
+    text-align: left;
+    width: 400px;
+    justify-content: flex-end;
+}
+
+.main {
+
+}
+
+.div_header {
+    display: flex;
+    width: 100%;
+    height: 48px;
+}
+
+.ul_header {
+    background-color: rgb(75, 79, 83);
+    display: flex;
+    width: 100%;
+    height: 48px;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    position: fixed;
+    text-align:right;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.header_el {
+    margin-right: 10px;
+}
+
+.page_body {
+    background-color: rgb(115, 121, 128);
+    width: 1100px;
+    height: auto;
+    left: 50%;
+    margin-left: -500px;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+}
+
+.categories {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    width: 300px;
+    flex-direction: row;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.rooms {
+    margin-top: 10px;   
+    margin-bottom: 10px;
+    margin-left: auto;
+    width: 750px;
+    display: inline-block;
+    background-color: rgba(126, 176, 199, 0.623);
+}
+.room {
+    width: 700px;
+
+    height: auto;
+    background-color: rgba(209, 209, 209, 0.623);
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom:  6px;
+    border-radius: 5px;
+}
+
+.categories_button {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.hr_ctg {
+    background-color: rgba(209, 209, 209, 0.623);
+}
+
+.input_room {
+    color: rgb(204, 204, 204);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color:rgb(0, 0, 0);
+    text-align: left;
+    width: 400px;
+    justify-content: flex-end;
+}
+
+.room_name {
+
+}
